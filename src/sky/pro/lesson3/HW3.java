@@ -8,7 +8,7 @@ public class HW3 {
         int c = 32_768;
         long d = 22_222_222_222L;
         float e = 3.76f;
-        double f = 3.77777777;
+        double f = 3.77777778;
         //Задача 2
         float sportsman1 = 78.2f;
         float sportsman2 = 82.7f;
