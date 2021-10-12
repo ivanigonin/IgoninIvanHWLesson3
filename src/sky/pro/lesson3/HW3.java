@@ -9,11 +9,13 @@ public class HW3 {
         long d = 22_222_222_222L;
         float e = 3.76f;
         double f = 3.77777778;
+        char g = 'i';
+        boolean h = 5 > 3;
         //Задача 2
-        float sportsman1 = 78.2f;
-        float sportsman2 = 82.7f;
-        float boathWeight = sportsman1 + sportsman2;
-        float leftWeight = sportsman2 - sportsman1;
+        float sportsman1Weight = 78.2f;
+        float sportsman2Weight = 82.7f;
+        float boathWeight = sportsman1Weight + sportsman2Weight;
+        float leftWeight = sportsman2Weight - sportsman1Weight;
         System.out.println("Задача №2");
         System.out.println("Вес двух боксеров равен " + boathWeight + " кг");
         System.out.println("Разница в весе двух боксеров равна " + leftWeight + " кг");
