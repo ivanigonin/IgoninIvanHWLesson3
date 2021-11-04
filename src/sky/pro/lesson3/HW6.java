@@ -21,7 +21,7 @@ public class HW6 {
 
     public static void task1() {
         //Задача 1
-        System.out.println("Задача 1");
+        System.out.println("Задача №1");
         int[] arr = generateRandomArray();
 
         int summ = 0;
@@ -36,7 +36,7 @@ public class HW6 {
 
     public static void task2() {
         //Задача 2
-        System.out.println("Задача 2");
+        System.out.println("Задача №2");
         int[] arr = generateRandomArray();
         int minimal = arr[0];
         int maximum = arr[29];
@@ -56,7 +56,7 @@ public class HW6 {
 
     public static void task3() {
         //Задача 3
-        System.out.println("Задача 3");
+        System.out.println("Задача №3");
         int[] arr = generateRandomArray();
         float summ = 0.0f;
         for (int i = 0; i < arr.length; i++) {
@@ -68,7 +68,7 @@ public class HW6 {
 
     public static void task4() {
         //Задача 4
-        System.out.println("Задача 4");
+        System.out.println("Задача №4");
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int i = reverseFullName.length - 1; i >= 0; i--) {
             System.out.print(reverseFullName[i]);
